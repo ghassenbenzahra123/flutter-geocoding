@@ -50,7 +50,7 @@ class Placemark {
   final String? postalCode;
 
   /// The name of the state or province associated with the placemark.
-  final String? administrativeArea;
+   String? administrativeArea;
 
   /// Additional administrative area information for the placemark.
   final String? subAdministrativeArea;
