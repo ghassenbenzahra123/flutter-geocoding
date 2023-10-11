@@ -66,7 +66,9 @@ class Placemark {
 
   /// Additional street address information for the placemark.
   final String? subThoroughfare;
-
+  set administrativeArea(String? value) {
+    administrativeArea = value;
+  }
   @override
   bool operator ==(dynamic other) =>
       other is Placemark &&
